@@ -1,6 +1,11 @@
 import ImageGrid from "./Imagegrid"
 import Navbar from "./Navbar"
-
+import image1 from '../assets/avatar-group.png';
+import star1 from '../assets/star1.png';
+import star2 from '../assets/star2.png';
+import star3 from '../assets/star3.png';
+import star4 from '../assets/star4.png';
+import star5 from '../assets/star5.png';
 
 
 
@@ -59,9 +64,27 @@ const Homepage = () => {
 
                                 <div style={{}}>
                                     
-                                    <p>Discover AI assistant</p>
+                                    <p className="mt-2">Discover AI assistant</p>
                                 </div>
 
+                        </div>
+
+
+                        <div className="d-flex gap-4 mt-3" >
+                              <div><img src={image1} alt="" /></div>
+                              
+                              <div>
+                                <div className="d-flex gap-1" style={{marginTop:"-4px"}}>
+                                  <div><img src={star1} alt="" /></div>
+                                  <div><img src={star2} alt="" /></div>
+                                  <div><img src={star3} alt="" /></div>
+                                  <div><img src={star4} alt="" /></div>
+                                  <div><img src={star5} alt="" /></div>
+                                  <p className="mt-1">5.0</p>
+                                </div>
+
+                                <p style={{marginTop:"-25px"}}>3,000 + reviews</p>
+                              </div>
                         </div>
 
                     </div>

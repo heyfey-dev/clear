@@ -1,4 +1,4 @@
-import Homepage from "./components/Navber"
+import Homepage from "./assets/Homepage"
 
 
 

@@ -7,6 +7,7 @@ import star3 from '../assets/star3.png';
 import star4 from '../assets/star4.png';
 import star5 from '../assets/star5.png';
 import image2 from '../assets/frame-10.png';
+import Newpage from "./Newpage";
 
 
 
@@ -103,6 +104,10 @@ const Homepage = () => {
 
 </main>
 
+
+<section>
+          <Newpage/>
+</section>
 
 
 

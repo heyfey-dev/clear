@@ -1,4 +1,4 @@
-import Homepage from "./assets/Homepage"
+import Homepage from "./components/Homepage"
 
 
 

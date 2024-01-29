@@ -3,7 +3,7 @@
   grid-template-rows: repeat(3, 1fr); /* Three rows with equal height */
   grid-template-columns: repeat(3, 1fr); /* Two columns with equal width */
   gap: 20px;
-  width: 10%;
+  width: 100%;
 }
 .item {
   border-radius: 20px;

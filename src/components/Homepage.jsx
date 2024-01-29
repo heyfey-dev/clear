@@ -1,5 +1,5 @@
-import ImageGrid from "../components/Imagegrid"
-import Navbar from "../components/Navbar"
+import ImageGrid from "./Imagegrid"
+import Navbar from "./Navbar"
 
 
 
@@ -11,14 +11,30 @@ const Homepage = () => {
         <Navbar/>
         
         <main style={{ marginTop:"6rem"}}>
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '20px' }}>
-                    <div>
+                <div style={{display:"flex", justifyContent:"space-between", }}>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', gap: '20px', width:"90rem" }} >
                             <div>
-                                    <h2>Uniting the world, <br /> one video call at a time</h2>
+                                    <h2 style={{
+                                      fontFamily: "Inter",
+                                      fontSize: "64px",
+                                      fontStyle: "normal",
+                                      fontWeight: "600",
+                                      lineHeight: "72px",
+                                      letterSpacing: "-1.28px",
+                                      
+                                    }}>Uniting the world, <br /> one video call at a time</h2>
                             </div>
 
-                            <div>
-                                    <p>
+                            <div style={{width: "662px",
+                            }}>
+                                    <p style={{
+                                      fontFamily: "Inter",
+                                      fontSize: "24px",
+                                      fontStyle: "normal",
+                                      fontWeight: "400",
+                                      lineHeight: "32px",
+                                      
+                                    }}>
                                         Experience the future of communication with ClearLink - <br />
                                         where crystal-clear video conferencing <br />
                                         meets unparalleled simplicity.
@@ -49,10 +65,14 @@ const Homepage = () => {
                         </div>
 
                     </div>
+
+
+
+                    <ImageGrid/>
                  </div>
 
 
-                                        <ImageGrid/>
+                                       
 
                 
 

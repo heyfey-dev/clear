@@ -1,16 +1,28 @@
-import image1 from '../assets/image-21.png';
-import image2 from '../assets/image-100.png';
-import image3 from '../assets/image-8.png';
-import image4 from '../assets/image-72.png';
-import image5 from '../assets/image-108.png';
-import image6 from '../assets/image-103.png';
+import image1 from '../assets/shopify.png';
+import image2 from '../assets/coinbase.png';
+import image3 from '../assets/dropbox.png';
+import image4 from '../assets/intercom.png';
+import image5 from '../assets/marvel.png';
+import image6 from '../assets/autorename.png';
 const Newpage = () => {
   return (
-    <div>
-      <div>
-        <p>Join 1,500+ companies already video conferencing the ClearLink way</p>
+    <div style={{
+      marginTop:"5rem",
+      lineHeight:"50px"
+    }}>
+      <div style={{
+        textAlign:"center"
+      }}>
+        <p style={{
+          fontFamily: "Inter",
+          fontSize: "20px",
+          fontStyle: "normal",
+          fontWeight: "500",
+          color: "var(--Gray-600, #475467)",
+          
+        }}>Join 1,500+ companies already video conferencing the ClearLink way</p>
       </div>
-      <div>
+      <div className='d-flex gap-5'>
         <div>
           <img src={image1} alt="" />
         </div>

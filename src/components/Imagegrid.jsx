@@ -15,7 +15,7 @@ import '../App.css';
 
 const Imagegrid = () => {
   return (
-    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', borderRadius: '16px', border:"1px solid var(--Blue-200, #B2DDFF)", backgroundColor:"rgb(239,248,255)"}}>
+    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', borderRadius: '16px', border:"1px solid var(--Blue-200, #B2DDFF)", backgroundColor:"rgb(239,248,255)", boxShadow:"0px 5px 30px  "}}>
       <div className='grid-container' style={{ display: 'grid', gridTemplateColumns: 'repeat(3, 1fr)', padding: '32px', gap: '16px', marginBottom: '-16px' }}>
         <div className='item' style={{ backgroundColor: 'rgb(255,156,102)' }}><img src={image1} alt="" /></div>
         <div className='item' style={{ backgroundColor: 'rgb(214,187,251)' }}><img src={image2} alt="" /></div>

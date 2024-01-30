@@ -2,6 +2,7 @@ import video from '../assets/video-recorder.png'
 import recorder from '../assets/recording.png'
 import unlock from '../assets/lunlock.png'
 import calenders from '../assets/calenders.png'
+import rectangle from '../assets/rectangle-1.png'
 const Nextpage = () => {
   return (
     <div>
@@ -41,6 +42,10 @@ const Nextpage = () => {
                         <div><h5>Bank-grade security</h5></div>
                         <div><p>Your privacy is our priority with bank- <br />grade security protocols safeguarding <br /> your meetings and data from unwanted <br />intruders.</p></div>
                     </div>
+                </div>
+
+                <div>
+                    <img src={rectangle} alt="" />
                 </div>
             </div>
 

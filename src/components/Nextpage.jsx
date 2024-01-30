@@ -3,21 +3,42 @@ import recorder from '../assets/recording.png'
 import unlock from '../assets/lunlock.png'
 import calenders from '../assets/calenders.png'
 import rectangle from '../assets/rectangle-1.png'
+import hand from '../assets/hand-drawn-arrow.png'
 const Nextpage = () => {
   return (
     <div>
       <div>
-        <section>
-            <div>
-                <p>The ClearLink Advantage</p>
-                <div><h2>Why choose ClearLink?</h2></div>
-                <div><p>In a world where connection is everything, ClearLink takes the lead. <br />Our cutting-edge video conferencing app offers:</p></div>
+        <section style={{marginTop:"100px"}}>
+            <div >
+                    <div>
+                             <p>The ClearLink Advantage</p>
+                             <div><h2>Why choose ClearLink?</h2></div>
+                             <div><p>In a world where connection is everything, ClearLink takes the lead. <br />Our cutting-edge video conferencing app offers:</p></div>
+                    </div>
+                    <div style={{
+                        position: "absolute",
+                        right: "290px",
+                        top: "890px",
+                    }}>
+                        <img src={hand} style={{
+                            height: "157.324px",
+                            width: "238.234px",
+                        
+                            
+                        }} alt="" />
+                    </div>
             </div>
 
 
 
-            <div>
-                <div className='grid-contain'>
+            <div style={{
+                display:"flex",
+                width:"78rem",
+                justifyContent: "space-between",
+                alignItems: "center",
+                
+            }}>
+                <div className='grid-contain mt-4'>
 
                         <div>
                             <div><img src={video} alt="" /></div>
@@ -44,7 +65,7 @@ const Nextpage = () => {
                     </div>
                 </div>
 
-                <div>
+                <div className='mt-5'>
                     <img src={rectangle} alt="" />
                 </div>
             </div>

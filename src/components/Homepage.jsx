@@ -10,6 +10,7 @@ import image2 from '../assets/frame-10.png';
 import Newpage from "./Newpage";
 import Nextpage from "./Nextpage";
 import Anotherpage from "./Anotherpage";
+import Mockup from "./Mockup";
 
 
 
@@ -115,7 +116,7 @@ const Homepage = () => {
   <Nextpage/>
 </section>
 <Anotherpage/>
-
+<Mockup/>
 
       </div>
     </div>

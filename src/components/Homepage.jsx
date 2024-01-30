@@ -11,8 +11,8 @@ import Newpage from "./Newpage";
 import Nextpage from "./Nextpage";
 import Anotherpage from "./Anotherpage";
 import Mockup from "./Mockup";
-
-
+import Lastpage from "./lastpage"
+import Footer from "./Footer";
 
 const Homepage = () => {
   return (
@@ -117,6 +117,8 @@ const Homepage = () => {
 </section>
 <Anotherpage/>
 <Mockup/>
+<Lastpage/>
+<Footer/>
 
       </div>
     </div>

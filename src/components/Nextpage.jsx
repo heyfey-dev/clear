@@ -11,17 +11,33 @@ const Nextpage = () => {
         <section style={{marginTop:"100px"}}>
             <div >
                     <div>
-                             <p>The ClearLink Advantage</p>
-                             <div><h2>Why choose ClearLink?</h2></div>
-                             <div><p>In a world where connection is everything, ClearLink takes the lead. <br />Our cutting-edge video conferencing app offers:</p></div>
+                             <p style={{
+                                color: "var(--Blue-700, #175CD3)",
+                                fontFamily: "Inter",
+                                fontSize: "18px",
+                                fontStyle: "normal",
+                                fontWeight: "600",
+                                lineHeight: "28px",
+                                
+                             }}>The ClearLink Advantage</p>
+                             <div><h2 style={{
+                                fontFamily: "Inter",
+                                fontSize: "48px",
+                                fontStyle: "normal",
+                                fontWeight: "600",
+                                lineHeight: "60px",
+                                letterSpacing: "-0.96px",
+                                
+                             }}>Why choose ClearLink?</h2></div>
+                             <div><p style={{}}>In a world where connection is everything, ClearLink takes the lead. <br />Our cutting-edge video conferencing app offers:</p></div>
                     </div>
                     <div style={{
                         position: "absolute",
-                        right: "290px",
-                        top: "890px",
+                        right: "300px",
+                        top: "980px",
                     }}>
                         <img src={hand} style={{
-                            height: "157.324px",
+                            height: "200.324px",
                             width: "238.234px",
                         
                             

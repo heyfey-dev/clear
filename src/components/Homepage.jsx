@@ -8,6 +8,7 @@ import star4 from '../assets/star4.png';
 import star5 from '../assets/star5.png';
 import image2 from '../assets/frame-10.png';
 import Newpage from "./Newpage";
+import Nextpage from "./Nextpage";
 
 
 
@@ -109,7 +110,9 @@ const Homepage = () => {
           <Newpage/>
 </section>
 
-
+<section>
+  <Nextpage/>
+</section>
 
 
       </div>
